@@ -4,6 +4,8 @@
 	font-family: sans-serif;
 }
 
+
+
 .container {
 	font-size: 25px;
 	color: blue;
@@ -27,6 +29,6 @@ li a {
 }
 
 .text1 {
-    margin: 3rem 3rem 0rem 2rem;
-    /* width: 70%; */
+    padding: 3rem 3rem 0rem 2rem ;
+     width: 70%; 
 }
