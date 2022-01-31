@@ -25,3 +25,8 @@ ul li {
 li a {
 	text-decoration: none;
 }
+
+.text1 {
+    margin: 3rem 3rem 0rem 2rem;
+    /* width: 70%; */
+}
