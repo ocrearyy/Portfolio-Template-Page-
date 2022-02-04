@@ -16,6 +16,10 @@
 	font-size: 25px;
 }
 
+.section1 {
+	background-image: url("My-portfolio-main/img/header-shapes-mobile.svg");
+}
+
 .text1 {
 	margin: 5rem 0 0 5rem;
 	width: 70%;
