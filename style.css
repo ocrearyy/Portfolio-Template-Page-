@@ -5,6 +5,9 @@
 	box-sizing: border-box;
 }
 
+body {
+	background-color: lightgrey;
+}
 #header {
 	display: flex;
 	align-items: center;
@@ -17,18 +20,33 @@
 }
 
 .section1 {
-	background-image: url("My-portfolio-main/img/header-shapes-mobile.svg");
+	background-image: url(img/desktop-header-bg.svg);
+	background-repeat: no-repeat;
+    background-size: 95%;
+    border: 2px solid white;
+    padding-bottom: 7rem;
+    border-radius: 0 0 0 50px;
+    background-color: white;
 }
 
 .text1 {
-	margin: 5rem 0 0 5rem;
-	width: 70%;
-	font-size: 20px;
-	line-height: 1.5rem;
+	margin: 9rem 0 0 5rem;
+	width: 81%;
+	font-size: 23px;
+	line-height: 2rem;
+}
+
+.myself {
+	color: #344563;
+}
+
+.connect {
+	color: #7f8cff;
 }
 
 h1 {
 	margin-bottom: 2rem;
+	font-size: 40px;
 }
 
 .menu-bar ul {
@@ -56,8 +74,23 @@ a {
 .social-icons ul {
 	display: flex;
 	margin-top: 2rem;
+	font-size: 2rem;
+	font-style: normal;
 }
 .social-icons ul li {
 	margin-right: 2rem;
 	list-style: none;
+}
+
+.img1 {
+	margin: 1rem 0 1rem 1rem;
+	width: 45%;
+	
+}
+
+.section2 {
+	background-color: white;
+	width: 85%;
+	margin: 4.5rem 0 0 5rem;
+	border-radius: 50px;
 }
