@@ -84,11 +84,13 @@ a {
 
 .img1 {
 	margin: 1rem 0 1rem 1rem;
-	width: 45%;
+	width: 80%;
 	
 }
 
 .section2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	background-color: white;
 	width: 85%;
 	margin: 4.5rem 0 0 5rem;
@@ -102,4 +104,64 @@ a {
     margin: 0;
     box-sizing: border-box;
 	
+}
+
+h2 {
+	margin-top: 3rem;
+	font-size: 40px;
+	color: #172b4d;
+}
+
+.list1 {
+	display: flex;
+}
+
+.list1 li {
+	margin: 1.5rem 2rem 0 0;
+	
+}
+
+.can {
+	list-style: none;
+}
+
+p {
+	margin-top: 1.5rem;
+	font-size: 19px;
+	color: #344563;
+	width: 80%;
+}
+
+.list2 {
+	display: flex;
+
+}
+
+.list3 {
+	display: flex;
+	
+}
+
+.list2 li {
+	margin: 1.5rem 2rem 0 0;
+	list-style: none;
+	border: 1px solid #dadbff;
+	background-color: #ebebff;
+}
+
+.list3 li {
+	margin: 1.5rem 2rem 0 0;
+	list-style: none;
+	border: 1px solid #dadbff;
+	background-color: #ebebff;
+}
+
+.btn {
+    margin-top: 1rem;
+	padding: 0.5rem;
+	border: 2px solid black;
+	border-radius: 0.5rem;
+	font-size: 15px;
+	font-weight: bolder;
+
 }
