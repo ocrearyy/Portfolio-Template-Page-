@@ -88,20 +88,20 @@ a {
 	
 }
 
-.section2 {
+.sectiontemplate {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	background-color: white;
 	width: 85%;
-	margin: 4.5rem 0 0 5rem;
+	margin: 4.5rem 0 0 5rem; 
 	border-radius: 50px;
 	
 }
 
 
-.section2Text {
+.sectionText {
 	padding: 0;
-    margin: 0;
+    margin: 2rem;
     box-sizing: border-box;
 	
 }
@@ -166,12 +166,4 @@ p {
 
 }
 
-.section3 {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	background-color: white;
-	width: 85%;
-	margin: 4.5rem 0 0 5rem;
-	border-radius: 50px;
-	
-}
+
