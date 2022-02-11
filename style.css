@@ -17,6 +17,7 @@ body {
 	width: 100%;
 	color: blue;
 	font-size: 25px;
+	background-color: white;
 }
 
 .section1 {
@@ -166,4 +167,9 @@ p {
 
 }
 
-
+.sectiondiv {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: white;
+	/* padding: 2rem 0 0 3rem; */
+}
