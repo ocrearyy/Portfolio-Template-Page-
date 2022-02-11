@@ -173,3 +173,20 @@ p {
 	background-color: white;
 	/* padding: 2rem 0 0 3rem; */
 }
+
+.languages {
+	display: flex;
+	list-style: none;
+	margin-top: 1rem;
+	/* justify-content: space-between; */
+	/* padding: 0 5rem 0 0; */
+	
+}
+
+.languages li {
+margin: 0 2rem 0 2rem;
+}
+
+.language-icon {
+	/* margin: 0 2rem 0 2rem ; */
+}
